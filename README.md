@@ -6,7 +6,6 @@ codes:
 def read_and_modify_file():
     # Prompt the user for a filename
     filename = input("Enter the name of the file to read: ")
-
     try:
         # Try opening the file in read mode
         with open(filename, "r") as input_file:
